@@ -139,6 +139,7 @@ rust_bindgen {
         "//apex_available:platform",
     ],
     visibility: [
+        "//external/rust/android-crates-io/crates/drm-ffi",
         "//external/rust/crates/drm-ffi",
     ],
 }
