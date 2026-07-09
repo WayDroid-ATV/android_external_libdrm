@@ -95,6 +95,7 @@ cc_library {
         "//apex_available:platform",
         "com.android.virt",
     ],
+    min_sdk_version: "35",
 }
 
 // Rust bindings for libdrm, generated in a way compatible with drm-ffi crate.
@@ -142,4 +143,5 @@ rust_bindgen {
         "//external/rust/android-crates-io/crates/drm-ffi",
         "//external/rust/crates/drm-ffi",
     ],
+    min_sdk_version: "35",
 }
